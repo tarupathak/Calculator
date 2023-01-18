@@ -6,16 +6,7 @@ Array.from(buttons).forEach((button) => {
         if (e.target.innerHTML == '=') {
             string = eval(string)
             document.querySelector('input').value = string;
-            // if(e.target.innerHTML == 'M+')
-            // {
-            //     string = eval(string) + string;
-            //     document.querySelector('input').value = string;
-            // }
-            // else{
-            //     string = string - eval(string);
-            //     document.querySelector('input').value = string;
-            // }
-        }
+           }
         else if (e.target.innerHTML == 'C') {
             string = ""
             document.querySelector('input').value = string;
